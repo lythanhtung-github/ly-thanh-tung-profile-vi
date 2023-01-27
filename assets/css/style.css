@@ -378,6 +378,7 @@ h6 {
   #hero {
     background-attachment: fixed;
   }
+
 }
 
 @media (max-width: 575px) {
@@ -613,12 +614,17 @@ section {
 .about .image {
   background: url("../img/me.jpg") center center no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .about .skills-content {
   margin-top: 30px;
+  /* max-width: 570px; */
 }
+
+/* @media (min-width: 570px) {
+
+} */
 
 .about .skills-content .progress {
   height: 60px;
@@ -650,7 +656,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #ffb727;
+  /* background-color: #ffb727; */
 }
 
 /*--------------------------------------------------------------
